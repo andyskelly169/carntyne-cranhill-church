@@ -32,3 +32,38 @@ nav{gap:24px}nav a{transition:color .2s ease,background .2s ease}nav .navbtn{bor
 footer{background:#1b2c3c;padding:38px 0 19px}.foot{padding-bottom:30px}.footer-logo{border-radius:8px;padding:5px}.copyright{padding-top:17px}
 @media(max-width:760px){header{height:74px}.cos-logo{width:45px;height:45px}.hero{min-height:640px;background-position:57% center}.hero:before{width:270px;height:270px;right:-70px;top:22%}.hero-copy{padding:100px 0 140px}.hero h1{font-size:clamp(48px,12vw,65px)}.hero .eyebrow{font-size:8px}.hero-copy>p:not(.eyebrow){font-size:15px;max-width:330px}.hero-note{left:18px;right:auto;bottom:66px;padding:12px 15px}.hero-caption{left:18px;bottom:22px;font-size:8px}.section{padding:76px 0}.split h2,.feature h2,.community h2,.contact h2{font-size:48px}.lead{font-size:22px}.feature{grid-template-columns:1fr}.feature-photo{min-height:280px}.feature-photo:after{inset:14px}.feature-copy{padding:52px 26px 60px}.cards article{min-height:unset;padding:27px}.community{padding:78px 0}.section-head h2{font-size:40px}.notice{padding:22px;border-radius:12px}.fb{gap:14px}.fb h2{font-size:25px}.fb .btn{margin-left:62px}.contact{padding:78px 0}.contact form{padding:25px;border-radius:13px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+```css
+/* Facebook post display */
+
+.facebook {
+  padding: 75px 0;
+  background: #f2f5f7;
+}
+
+.fb-feed {
+  margin-top: 30px;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.fb-feed iframe {
+  width: 100%;
+  max-width: 500px;
+  min-height: 414px;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .fb-feed {
+    padding: 10px;
+  }
+
+  .fb-feed iframe {
+    width: 100%;
+  }
+}
+```
