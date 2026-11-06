@@ -1,6 +1,6 @@
 // Replace these two settings with the church's real details before publishing.
 const CHURCH_EMAIL = "ADD-CHURCH-EMAIL@example.com";
-const FACEBOOK_PAGE_URL = "https://www.facebook.com/people/Carntyne-and-Cranhill-Parish-Church/100094600783937/";
+const FACEBOOK_PAGE_URL = "https://www.facebook.com/profile.php?id=100094600783937";
 const toggle = document.querySelector(".toggle");
 const nav = document.getElementById("nav");
 toggle.addEventListener("click", () => {
