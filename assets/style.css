@@ -67,3 +67,23 @@ footer{background:#1b2c3c;padding:38px 0 19px}.foot{padding-bottom:30px}.footer-
   }
 }
 ```
+/* Facebook post display fix */
+.fb-feed {
+  display: flex !important;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 520px;
+  overflow: visible;
+  margin: 25px auto;
+}
+
+.fb-feed iframe {
+  display: block !important;
+  width: 100%;
+  max-width: 500px;
+  height: 520px;
+  border: none;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
