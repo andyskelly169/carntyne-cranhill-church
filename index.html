@@ -20,20 +20,42 @@
 <article><span class="num">03</span><div class="symbol">✺</div><h3>Special services</h3><p>Seasonal celebrations and special services bring people together throughout the year.</p><a class="inline" href="#news">Church notices →</a></article></div></div></section>
 <section class="community" id="community"><div class="wrap split"><div><p class="eyebrow">Life beyond Sunday</p><h2>Growing together<br><em>as a community.</em></h2><p>Church is about people. We want to help build a connected, caring community where everyone can take part and feel at home.</p><a class="btn white" href="#contact">Find out what's happening</a></div><div class="community-list"><div><span>01</span><p><b>Community gatherings</b><small>Opportunities to meet, talk and share time together.</small></p></div><div><span>02</span><p><b>Support and care</b><small>A friendly point of contact when life feels difficult.</small></p></div><div><span>03</span><p><b>Church family events</b><small>Special occasions and activities for all ages.</small></p></div></div></div></section>
 <section class="section" id="news"><div class="wrap"><div class="section-head"><div><p class="eyebrow">Keep in touch</p><h2>Church news &amp; notices</h2></div><p>Updates, upcoming events and information from the life of our church.</p></div><div class="notice"><div class="notice-icon">NEWS</div><div><h3>What's happening at church?</h3><p>Add the latest announcement, event details or weekly notice here. Edit this text in <code>index.html</code>.</p></div><a class="inline" href="#contact">Ask us a question →</a></div></div></section>
-<section class="facebook"><div class="wrap fb-wrap">
-<div class="fb"><div class="fbmark">f</div><div><p class="eyebrow">Follow along</p><h2>Find us on Facebook</h2><p>Church news, photographs and community updates, shown from our Facebook page.</p></div><a class="btn dark" id="fb-link" href="#" target="_blank" rel="noopener">Visit our Facebook page ↗</a></div>
-<div class="fb-feed" id="fb-feed">
-    <iframe
-        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100094600783937&tabs=timeline&width=500&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
+```html
+<section class="facebook">
+  <div class="wrap fb-wrap">
+
+    <div class="fb">
+      <div class="fbmark">f</div>
+      <div>
+        <p class="eyebrow">Follow along</p>
+        <h2>Find us on Facebook</h2>
+        <p>Church news, photographs and community updates.</p>
+      </div>
+      <a class="btn dark"
+         href="https://www.facebook.com/profile.php?id=100094600783937"
+         target="_blank"
+         rel="noopener">
+        Visit our Facebook page ↗
+      </a>
+    </div>
+
+    <div class="fb-feed">
+      <iframe
+        id="fb-frame"
+        title="Church Facebook Timeline"
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100094600783937&tabs=timeline&width=500&height=700&adapt_container_width=true"
         width="100%"
         height="700"
         style="border:none;overflow:hidden"
         scrolling="no"
         frameborder="0"
         allowfullscreen="true">
-    </iframe>
-</div>
-</div></section>
+      </iframe>
+    </div>
+
+  </div>
+</section>
+```
 <section class="contact" id="contact"><div class="wrap split"><div><p class="eyebrow">We'd love to hear from you</p><h2>Get in<br><em>touch.</em></h2><p>Have a question, want to know more about services, or need to speak to someone? Send us a message.</p><div class="details"><p><small>ADDRESS</small><b>Church address to be added</b></p><p><small>EMAIL</small><b>Email address to be added</b></p><p><small>PHONE</small><b>Telephone number to be added</b></p></div></div>
 <form id="contact-form"><label for="name">Your name</label><input id="name" name="name" required autocomplete="name"><label for="email">Email address</label><input id="email" name="email" type="email" required autocomplete="email"><label for="message">How can we help?</label><textarea id="message" name="message" rows="5" required></textarea><button class="btn white" type="submit">Prepare message →</button><p id="form-note" class="form-note" aria-live="polite">The form opens your email app once the church email address is added in the site settings.</p></form></div></section>
 </main><footer><div class="wrap foot"><a class="brand footbrand" href="#home"><img class="cos-logo footer-logo" src="https://www.churchofscotland.org.uk/__data/assets/image/0004/51736/cofs-stacked-blue.png" alt="The Church of Scotland logo"><span class="brand-name"><b>Carntyne &amp; Cranhill Parish Church</b><small></span></a><p>A place to worship, connect<br>and care for one another.</p><a href="#home">Back to top ↑</a></div><div class="wrap copyright"><span>© <span id="year"></span> Carntyne &amp; Cranhill Parish Church</span><span>All are welcome.</span></div></footer>
